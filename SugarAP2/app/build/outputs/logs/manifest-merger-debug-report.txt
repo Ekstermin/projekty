@@ -1,0 +1,222 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\Dominik\AndroidStudioProjects\SugarAP2\app\src\main\AndroidManifest.xml:2:1-69:12
+INJECTED from C:\Users\Dominik\AndroidStudioProjects\SugarAP2\app\src\main\AndroidManifest.xml:2:1-69:12
+INJECTED from C:\Users\Dominik\AndroidStudioProjects\SugarAP2\app\src\main\AndroidManifest.xml:2:1-69:12
+INJECTED from C:\Users\Dominik\AndroidStudioProjects\SugarAP2\app\src\main\AndroidManifest.xml:2:1-69:12
+MERGED from [com.android.support:design:26.0.0-alpha1] C:\Users\Dominik\.gradle\caches\transforms-1\files-1.1\design-26.0.0-alpha1.aar\78b8e10654c978cbd7f038794af922f3\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\Dominik\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.0.0-alpha1.aar\9e80691da43ffe01ebeb2ee0fb19e942\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Dominik\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\997fce089134f1a4e313500cfa8a7e5a\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:recyclerview-v7:26.0.0-alpha1] C:\Users\Dominik\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.0.0-alpha1.aar\eb0f34527e8a8f9e7e88fdc426b8f007\AndroidManifest.xml:17:1-26:12
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] C:\Users\Dominik\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.0.0-alpha1.aar\ad64c37ff2f64d16d0b8f9f7b9c9c560\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] C:\Users\Dominik\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.0.0-alpha1.aar\140385bf79337e5c64bfb8859b413583\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:transition:26.0.0-alpha1] C:\Users\Dominik\.gradle\caches\transforms-1\files-1.1\transition-26.0.0-alpha1.aar\7df1e2a64a741529ebba7884719d326f\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:26.0.0-alpha1] C:\Users\Dominik\.gradle\caches\transforms-1\files-1.1\support-v4-26.0.0-alpha1.aar\f1aed7296d40d1558bf015c97796ce45\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-fragment:26.0.0-alpha1] C:\Users\Dominik\.gradle\caches\transforms-1\files-1.1\support-fragment-26.0.0-alpha1.aar\c790161246b338366094da1b3ff19298\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] C:\Users\Dominik\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.0.0-alpha1.aar\fedb222d99af8de5eb7e9ba7940d49ab\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] C:\Users\Dominik\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.0.0-alpha1.aar\a9fd3a7c55f9ac4c37b994137a463662\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] C:\Users\Dominik\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.0.0-alpha1.aar\5001ed5c64e29637bde670585d32515f\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-compat:26.0.0-alpha1] C:\Users\Dominik\.gradle\caches\transforms-1\files-1.1\support-compat-26.0.0-alpha1.aar\d0ceb85832dfbeb80840800e17f629cf\AndroidManifest.xml:17:1-31:12
+INJECTED from C:\Users\Dominik\AndroidStudioProjects\SugarAP2\app\src\main\AndroidManifest.xml:2:1-69:12
+INJECTED from C:\Users\Dominik\AndroidStudioProjects\SugarAP2\app\src\main\AndroidManifest.xml:2:1-69:12
+INJECTED from C:\Users\Dominik\AndroidStudioProjects\SugarAP2\app\src\main\AndroidManifest.xml:2:1-69:12
+	package
+		ADDED from C:\Users\Dominik\AndroidStudioProjects\SugarAP2\app\src\main\AndroidManifest.xml:3:5-42
+		INJECTED from C:\Users\Dominik\AndroidStudioProjects\SugarAP2\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Dominik\AndroidStudioProjects\SugarAP2\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\Dominik\AndroidStudioProjects\SugarAP2\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Dominik\AndroidStudioProjects\SugarAP2\app\src\main\AndroidManifest.xml:2:1-69:12
+		INJECTED from C:\Users\Dominik\AndroidStudioProjects\SugarAP2\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\Users\Dominik\AndroidStudioProjects\SugarAP2\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Dominik\AndroidStudioProjects\SugarAP2\app\src\main\AndroidManifest.xml:2:1-69:12
+		INJECTED from C:\Users\Dominik\AndroidStudioProjects\SugarAP2\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\Dominik\AndroidStudioProjects\SugarAP2\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\Users\Dominik\AndroidStudioProjects\SugarAP2\app\src\main\AndroidManifest.xml:4:5-81
+	android:name
+		ADDED from C:\Users\Dominik\AndroidStudioProjects\SugarAP2\app\src\main\AndroidManifest.xml:4:22-78
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from C:\Users\Dominik\AndroidStudioProjects\SugarAP2\app\src\main\AndroidManifest.xml:5:5-80
+	android:name
+		ADDED from C:\Users\Dominik\AndroidStudioProjects\SugarAP2\app\src\main\AndroidManifest.xml:5:22-77
+application
+ADDED from C:\Users\Dominik\AndroidStudioProjects\SugarAP2\app\src\main\AndroidManifest.xml:7:5-67:19
+MERGED from [com.android.support:design:26.0.0-alpha1] C:\Users\Dominik\.gradle\caches\transforms-1\files-1.1\design-26.0.0-alpha1.aar\78b8e10654c978cbd7f038794af922f3\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:design:26.0.0-alpha1] C:\Users\Dominik\.gradle\caches\transforms-1\files-1.1\design-26.0.0-alpha1.aar\78b8e10654c978cbd7f038794af922f3\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\Dominik\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.0.0-alpha1.aar\9e80691da43ffe01ebeb2ee0fb19e942\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\Dominik\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.0.0-alpha1.aar\9e80691da43ffe01ebeb2ee0fb19e942\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Dominik\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\997fce089134f1a4e313500cfa8a7e5a\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Dominik\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\997fce089134f1a4e313500cfa8a7e5a\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] C:\Users\Dominik\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.0.0-alpha1.aar\ad64c37ff2f64d16d0b8f9f7b9c9c560\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] C:\Users\Dominik\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.0.0-alpha1.aar\ad64c37ff2f64d16d0b8f9f7b9c9c560\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] C:\Users\Dominik\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.0.0-alpha1.aar\140385bf79337e5c64bfb8859b413583\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] C:\Users\Dominik\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.0.0-alpha1.aar\140385bf79337e5c64bfb8859b413583\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:transition:26.0.0-alpha1] C:\Users\Dominik\.gradle\caches\transforms-1\files-1.1\transition-26.0.0-alpha1.aar\7df1e2a64a741529ebba7884719d326f\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:transition:26.0.0-alpha1] C:\Users\Dominik\.gradle\caches\transforms-1\files-1.1\transition-26.0.0-alpha1.aar\7df1e2a64a741529ebba7884719d326f\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-v4:26.0.0-alpha1] C:\Users\Dominik\.gradle\caches\transforms-1\files-1.1\support-v4-26.0.0-alpha1.aar\f1aed7296d40d1558bf015c97796ce45\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-v4:26.0.0-alpha1] C:\Users\Dominik\.gradle\caches\transforms-1\files-1.1\support-v4-26.0.0-alpha1.aar\f1aed7296d40d1558bf015c97796ce45\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:26.0.0-alpha1] C:\Users\Dominik\.gradle\caches\transforms-1\files-1.1\support-fragment-26.0.0-alpha1.aar\c790161246b338366094da1b3ff19298\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:26.0.0-alpha1] C:\Users\Dominik\.gradle\caches\transforms-1\files-1.1\support-fragment-26.0.0-alpha1.aar\c790161246b338366094da1b3ff19298\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] C:\Users\Dominik\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.0.0-alpha1.aar\fedb222d99af8de5eb7e9ba7940d49ab\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] C:\Users\Dominik\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.0.0-alpha1.aar\fedb222d99af8de5eb7e9ba7940d49ab\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] C:\Users\Dominik\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.0.0-alpha1.aar\a9fd3a7c55f9ac4c37b994137a463662\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] C:\Users\Dominik\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.0.0-alpha1.aar\a9fd3a7c55f9ac4c37b994137a463662\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] C:\Users\Dominik\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.0.0-alpha1.aar\5001ed5c64e29637bde670585d32515f\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] C:\Users\Dominik\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.0.0-alpha1.aar\5001ed5c64e29637bde670585d32515f\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:26.0.0-alpha1] C:\Users\Dominik\.gradle\caches\transforms-1\files-1.1\support-compat-26.0.0-alpha1.aar\d0ceb85832dfbeb80840800e17f629cf\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:26.0.0-alpha1] C:\Users\Dominik\.gradle\caches\transforms-1\files-1.1\support-compat-26.0.0-alpha1.aar\d0ceb85832dfbeb80840800e17f629cf\AndroidManifest.xml:29:5-20
+	android:screenOrientation
+		ADDED from C:\Users\Dominik\AndroidStudioProjects\SugarAP2\app\src\main\AndroidManifest.xml:14:9-45
+	android:supportsRtl
+		ADDED from C:\Users\Dominik\AndroidStudioProjects\SugarAP2\app\src\main\AndroidManifest.xml:12:9-35
+	android:label
+		ADDED from C:\Users\Dominik\AndroidStudioProjects\SugarAP2\app\src\main\AndroidManifest.xml:10:9-41
+	android:roundIcon
+		ADDED from C:\Users\Dominik\AndroidStudioProjects\SugarAP2\app\src\main\AndroidManifest.xml:11:9-54
+	android:icon
+		ADDED from C:\Users\Dominik\AndroidStudioProjects\SugarAP2\app\src\main\AndroidManifest.xml:9:9-43
+	android:allowBackup
+		ADDED from C:\Users\Dominik\AndroidStudioProjects\SugarAP2\app\src\main\AndroidManifest.xml:8:9-36
+	android:theme
+		ADDED from C:\Users\Dominik\AndroidStudioProjects\SugarAP2\app\src\main\AndroidManifest.xml:13:9-40
+activity#pl.winiarek.dominik.sugarap.SugarAP
+ADDED from C:\Users\Dominik\AndroidStudioProjects\SugarAP2\app\src\main\AndroidManifest.xml:15:9-25:20
+	android:screenOrientation
+		ADDED from C:\Users\Dominik\AndroidStudioProjects\SugarAP2\app\src\main\AndroidManifest.xml:19:13-49
+	android:label
+		ADDED from C:\Users\Dominik\AndroidStudioProjects\SugarAP2\app\src\main\AndroidManifest.xml:17:13-45
+	android:theme
+		ADDED from C:\Users\Dominik\AndroidStudioProjects\SugarAP2\app\src\main\AndroidManifest.xml:18:13-56
+	android:name
+		ADDED from C:\Users\Dominik\AndroidStudioProjects\SugarAP2\app\src\main\AndroidManifest.xml:16:13-36
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from C:\Users\Dominik\AndroidStudioProjects\SugarAP2\app\src\main\AndroidManifest.xml:20:13-24:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\Dominik\AndroidStudioProjects\SugarAP2\app\src\main\AndroidManifest.xml:21:17-69
+	android:name
+		ADDED from C:\Users\Dominik\AndroidStudioProjects\SugarAP2\app\src\main\AndroidManifest.xml:21:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\Dominik\AndroidStudioProjects\SugarAP2\app\src\main\AndroidManifest.xml:23:17-77
+	android:name
+		ADDED from C:\Users\Dominik\AndroidStudioProjects\SugarAP2\app\src\main\AndroidManifest.xml:23:27-74
+activity#pl.winiarek.dominik.Activity_HistoriaPomiarow
+ADDED from C:\Users\Dominik\AndroidStudioProjects\SugarAP2\app\src\main\AndroidManifest.xml:26:9-36:20
+	android:parentActivityName
+		ADDED from C:\Users\Dominik\AndroidStudioProjects\SugarAP2\app\src\main\AndroidManifest.xml:30:13-50
+	android:label
+		ADDED from C:\Users\Dominik\AndroidStudioProjects\SugarAP2\app\src\main\AndroidManifest.xml:28:13-69
+	android:theme
+		ADDED from C:\Users\Dominik\AndroidStudioProjects\SugarAP2\app\src\main\AndroidManifest.xml:31:13-56
+	android:name
+		ADDED from C:\Users\Dominik\AndroidStudioProjects\SugarAP2\app\src\main\AndroidManifest.xml:27:13-73
+meta-data#android.support.PARENT_ACTIVITY
+ADDED from C:\Users\Dominik\AndroidStudioProjects\SugarAP2\app\src\main\AndroidManifest.xml:32:13-35:55
+	android:screenOrientation
+		ADDED from C:\Users\Dominik\AndroidStudioProjects\SugarAP2\app\src\main\AndroidManifest.xml:35:17-53
+	android:value
+		ADDED from C:\Users\Dominik\AndroidStudioProjects\SugarAP2\app\src\main\AndroidManifest.xml:34:17-68
+	android:name
+		ADDED from C:\Users\Dominik\AndroidStudioProjects\SugarAP2\app\src\main\AndroidManifest.xml:33:17-63
+activity#pl.winiarek.dominik.Activity_Kalkulator
+ADDED from C:\Users\Dominik\AndroidStudioProjects\SugarAP2\app\src\main\AndroidManifest.xml:37:9-46:20
+	android:parentActivityName
+		ADDED from C:\Users\Dominik\AndroidStudioProjects\SugarAP2\app\src\main\AndroidManifest.xml:40:13-50
+	android:label
+		ADDED from C:\Users\Dominik\AndroidStudioProjects\SugarAP2\app\src\main\AndroidManifest.xml:39:13-63
+	android:theme
+		ADDED from C:\Users\Dominik\AndroidStudioProjects\SugarAP2\app\src\main\AndroidManifest.xml:41:13-56
+	android:name
+		ADDED from C:\Users\Dominik\AndroidStudioProjects\SugarAP2\app\src\main\AndroidManifest.xml:38:13-67
+activity#pl.winiarek.dominik.Activity_Produkty
+ADDED from C:\Users\Dominik\AndroidStudioProjects\SugarAP2\app\src\main\AndroidManifest.xml:47:9-56:20
+	android:parentActivityName
+		ADDED from C:\Users\Dominik\AndroidStudioProjects\SugarAP2\app\src\main\AndroidManifest.xml:50:13-50
+	android:label
+		ADDED from C:\Users\Dominik\AndroidStudioProjects\SugarAP2\app\src\main\AndroidManifest.xml:49:13-61
+	android:theme
+		ADDED from C:\Users\Dominik\AndroidStudioProjects\SugarAP2\app\src\main\AndroidManifest.xml:51:13-56
+	android:name
+		ADDED from C:\Users\Dominik\AndroidStudioProjects\SugarAP2\app\src\main\AndroidManifest.xml:48:13-65
+activity#pl.winiarek.dominik.Activity_Pomiar
+ADDED from C:\Users\Dominik\AndroidStudioProjects\SugarAP2\app\src\main\AndroidManifest.xml:57:9-66:20
+	android:parentActivityName
+		ADDED from C:\Users\Dominik\AndroidStudioProjects\SugarAP2\app\src\main\AndroidManifest.xml:60:13-50
+	android:label
+		ADDED from C:\Users\Dominik\AndroidStudioProjects\SugarAP2\app\src\main\AndroidManifest.xml:59:13-59
+	android:theme
+		ADDED from C:\Users\Dominik\AndroidStudioProjects\SugarAP2\app\src\main\AndroidManifest.xml:61:13-56
+	android:name
+		ADDED from C:\Users\Dominik\AndroidStudioProjects\SugarAP2\app\src\main\AndroidManifest.xml:58:13-63
+uses-sdk
+INJECTED from C:\Users\Dominik\AndroidStudioProjects\SugarAP2\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\Dominik\AndroidStudioProjects\SugarAP2\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Dominik\AndroidStudioProjects\SugarAP2\app\src\main\AndroidManifest.xml
+MERGED from [com.android.support:design:26.0.0-alpha1] C:\Users\Dominik\.gradle\caches\transforms-1\files-1.1\design-26.0.0-alpha1.aar\78b8e10654c978cbd7f038794af922f3\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:design:26.0.0-alpha1] C:\Users\Dominik\.gradle\caches\transforms-1\files-1.1\design-26.0.0-alpha1.aar\78b8e10654c978cbd7f038794af922f3\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\Dominik\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.0.0-alpha1.aar\9e80691da43ffe01ebeb2ee0fb19e942\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\Dominik\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.0.0-alpha1.aar\9e80691da43ffe01ebeb2ee0fb19e942\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Dominik\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\997fce089134f1a4e313500cfa8a7e5a\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Dominik\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\997fce089134f1a4e313500cfa8a7e5a\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:recyclerview-v7:26.0.0-alpha1] C:\Users\Dominik\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.0.0-alpha1.aar\eb0f34527e8a8f9e7e88fdc426b8f007\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:26.0.0-alpha1] C:\Users\Dominik\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.0.0-alpha1.aar\eb0f34527e8a8f9e7e88fdc426b8f007\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] C:\Users\Dominik\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.0.0-alpha1.aar\ad64c37ff2f64d16d0b8f9f7b9c9c560\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] C:\Users\Dominik\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.0.0-alpha1.aar\ad64c37ff2f64d16d0b8f9f7b9c9c560\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] C:\Users\Dominik\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.0.0-alpha1.aar\140385bf79337e5c64bfb8859b413583\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] C:\Users\Dominik\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.0.0-alpha1.aar\140385bf79337e5c64bfb8859b413583\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:26.0.0-alpha1] C:\Users\Dominik\.gradle\caches\transforms-1\files-1.1\transition-26.0.0-alpha1.aar\7df1e2a64a741529ebba7884719d326f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:26.0.0-alpha1] C:\Users\Dominik\.gradle\caches\transforms-1\files-1.1\transition-26.0.0-alpha1.aar\7df1e2a64a741529ebba7884719d326f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:26.0.0-alpha1] C:\Users\Dominik\.gradle\caches\transforms-1\files-1.1\support-v4-26.0.0-alpha1.aar\f1aed7296d40d1558bf015c97796ce45\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:26.0.0-alpha1] C:\Users\Dominik\.gradle\caches\transforms-1\files-1.1\support-v4-26.0.0-alpha1.aar\f1aed7296d40d1558bf015c97796ce45\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:26.0.0-alpha1] C:\Users\Dominik\.gradle\caches\transforms-1\files-1.1\support-fragment-26.0.0-alpha1.aar\c790161246b338366094da1b3ff19298\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:26.0.0-alpha1] C:\Users\Dominik\.gradle\caches\transforms-1\files-1.1\support-fragment-26.0.0-alpha1.aar\c790161246b338366094da1b3ff19298\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] C:\Users\Dominik\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.0.0-alpha1.aar\fedb222d99af8de5eb7e9ba7940d49ab\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] C:\Users\Dominik\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.0.0-alpha1.aar\fedb222d99af8de5eb7e9ba7940d49ab\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] C:\Users\Dominik\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.0.0-alpha1.aar\a9fd3a7c55f9ac4c37b994137a463662\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] C:\Users\Dominik\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.0.0-alpha1.aar\a9fd3a7c55f9ac4c37b994137a463662\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] C:\Users\Dominik\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.0.0-alpha1.aar\5001ed5c64e29637bde670585d32515f\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] C:\Users\Dominik\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.0.0-alpha1.aar\5001ed5c64e29637bde670585d32515f\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:26.0.0-alpha1] C:\Users\Dominik\.gradle\caches\transforms-1\files-1.1\support-compat-26.0.0-alpha1.aar\d0ceb85832dfbeb80840800e17f629cf\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:26.0.0-alpha1] C:\Users\Dominik\.gradle\caches\transforms-1\files-1.1\support-compat-26.0.0-alpha1.aar\d0ceb85832dfbeb80840800e17f629cf\AndroidManifest.xml:21:5-23:58
+INJECTED from C:\Users\Dominik\AndroidStudioProjects\SugarAP2\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Dominik\AndroidStudioProjects\SugarAP2\app\src\main\AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.android.support:design:26.0.0-alpha1] C:\Users\Dominik\.gradle\caches\transforms-1\files-1.1\design-26.0.0-alpha1.aar\78b8e10654c978cbd7f038794af922f3\AndroidManifest.xml:23:9-59
+	android:targetSdkVersion
+		INJECTED from C:\Users\Dominik\AndroidStudioProjects\SugarAP2\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Dominik\AndroidStudioProjects\SugarAP2\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Dominik\AndroidStudioProjects\SugarAP2\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\Dominik\AndroidStudioProjects\SugarAP2\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Dominik\AndroidStudioProjects\SugarAP2\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Dominik\AndroidStudioProjects\SugarAP2\app\src\main\AndroidManifest.xml
+meta-data#android.support.VERSION
+ADDED from [com.android.support:design:26.0.0-alpha1] C:\Users\Dominik\.gradle\caches\transforms-1\files-1.1\design-26.0.0-alpha1.aar\78b8e10654c978cbd7f038794af922f3\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\Dominik\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.0.0-alpha1.aar\9e80691da43ffe01ebeb2ee0fb19e942\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\Dominik\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.0.0-alpha1.aar\9e80691da43ffe01ebeb2ee0fb19e942\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:recyclerview-v7:26.0.0-alpha1] C:\Users\Dominik\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.0.0-alpha1.aar\eb0f34527e8a8f9e7e88fdc426b8f007\AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:recyclerview-v7:26.0.0-alpha1] C:\Users\Dominik\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.0.0-alpha1.aar\eb0f34527e8a8f9e7e88fdc426b8f007\AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] C:\Users\Dominik\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.0.0-alpha1.aar\ad64c37ff2f64d16d0b8f9f7b9c9c560\AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] C:\Users\Dominik\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.0.0-alpha1.aar\ad64c37ff2f64d16d0b8f9f7b9c9c560\AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] C:\Users\Dominik\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.0.0-alpha1.aar\140385bf79337e5c64bfb8859b413583\AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] C:\Users\Dominik\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.0.0-alpha1.aar\140385bf79337e5c64bfb8859b413583\AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:transition:26.0.0-alpha1] C:\Users\Dominik\.gradle\caches\transforms-1\files-1.1\transition-26.0.0-alpha1.aar\7df1e2a64a741529ebba7884719d326f\AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:transition:26.0.0-alpha1] C:\Users\Dominik\.gradle\caches\transforms-1\files-1.1\transition-26.0.0-alpha1.aar\7df1e2a64a741529ebba7884719d326f\AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:support-v4:26.0.0-alpha1] C:\Users\Dominik\.gradle\caches\transforms-1\files-1.1\support-v4-26.0.0-alpha1.aar\f1aed7296d40d1558bf015c97796ce45\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-v4:26.0.0-alpha1] C:\Users\Dominik\.gradle\caches\transforms-1\files-1.1\support-v4-26.0.0-alpha1.aar\f1aed7296d40d1558bf015c97796ce45\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-fragment:26.0.0-alpha1] C:\Users\Dominik\.gradle\caches\transforms-1\files-1.1\support-fragment-26.0.0-alpha1.aar\c790161246b338366094da1b3ff19298\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-fragment:26.0.0-alpha1] C:\Users\Dominik\.gradle\caches\transforms-1\files-1.1\support-fragment-26.0.0-alpha1.aar\c790161246b338366094da1b3ff19298\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] C:\Users\Dominik\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.0.0-alpha1.aar\fedb222d99af8de5eb7e9ba7940d49ab\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] C:\Users\Dominik\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.0.0-alpha1.aar\fedb222d99af8de5eb7e9ba7940d49ab\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] C:\Users\Dominik\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.0.0-alpha1.aar\a9fd3a7c55f9ac4c37b994137a463662\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] C:\Users\Dominik\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.0.0-alpha1.aar\a9fd3a7c55f9ac4c37b994137a463662\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] C:\Users\Dominik\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.0.0-alpha1.aar\5001ed5c64e29637bde670585d32515f\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] C:\Users\Dominik\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.0.0-alpha1.aar\5001ed5c64e29637bde670585d32515f\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-compat:26.0.0-alpha1] C:\Users\Dominik\.gradle\caches\transforms-1\files-1.1\support-compat-26.0.0-alpha1.aar\d0ceb85832dfbeb80840800e17f629cf\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-compat:26.0.0-alpha1] C:\Users\Dominik\.gradle\caches\transforms-1\files-1.1\support-compat-26.0.0-alpha1.aar\d0ceb85832dfbeb80840800e17f629cf\AndroidManifest.xml:25:5-27:41
+	android:value
+		ADDED from [com.android.support:design:26.0.0-alpha1] C:\Users\Dominik\.gradle\caches\transforms-1\files-1.1\design-26.0.0-alpha1.aar\78b8e10654c978cbd7f038794af922f3\AndroidManifest.xml:27:9-38
+	android:name
+		ADDED from [com.android.support:design:26.0.0-alpha1] C:\Users\Dominik\.gradle\caches\transforms-1\files-1.1\design-26.0.0-alpha1.aar\78b8e10654c978cbd7f038794af922f3\AndroidManifest.xml:26:9-47

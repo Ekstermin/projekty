@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="10dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:textAlignment="center">
+
+        <TextView
+            style="@style/maly_napis"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="5dp"
+            android:lineSpacingExtra="2dp"
+            android:text="Waga:"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/Waga"
+            style="@style/maly_napis"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="W"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="@android:color/black" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="start"
+        android:orientation="horizontal"
+        android:textAlignment="center">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="50"
+            android:gravity="start"
+            android:orientation="horizontal"
+            android:textAlignment="center"
+            android:textSize="20sp">
+
+            <TextView
+                android:id="@+id/Nazwa"
+                style="@style/wielki_napis"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_marginEnd="5dp"
+                android:layout_weight="50"
+                android:lineSpacingExtra="2dp"
+                android:text="Nazwa"
+                android:textColor="@android:color/black"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="50"
+            android:gravity="start"
+            android:orientation="horizontal"
+            android:textAlignment="center"
+            android:textSize="20sp">
+
+
+            <TextView
+                style="@style/maly_napis"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_marginEnd="5dp"
+                android:lineSpacingExtra="2dp"
+                android:text="Kalorie: "
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:id="@+id/Kalorie"
+                style="@style/maly_napis"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="23"
+                android:text="K"
+
+                android:textAllCaps="false"
+                android:textColor="@android:color/black" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="start"
+        android:orientation="horizontal"
+        android:textAlignment="center">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="50"
+            android:gravity="start"
+            android:orientation="horizontal"
+            android:textAlignment="center">
+
+            <TextView
+                style="@style/maly_napis"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Białko: " />
+
+            <TextView
+                android:id="@+id/Bialko"
+                style="@style/maly_napis"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="20"
+                android:text="Bi"
+
+                android:textAllCaps="false"
+                android:textColor="@android:color/black" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="50"
+            android:gravity="start"
+            android:orientation="horizontal"
+            android:textAlignment="center">
+
+            <TextView
+                style="@style/maly_napis"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2dp"
+                android:text="Tłuszcz: "
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:id="@+id/Tluszcz"
+                style="@style/maly_napis"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="20"
+                android:text="T"
+
+                android:textAllCaps="false"
+                android:textColor="@android:color/black" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="start"
+        android:orientation="horizontal"
+        android:textAlignment="center">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="start"
+            android:orientation="horizontal"
+            android:textAlignment="center">
+
+            <TextView
+                style="@style/maly_napis"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Węglo.:" />
+
+            <TextView
+                android:id="@+id/Weglowodany"
+                style="@style/maly_napis"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="20"
+                android:text="W"
+
+                android:textAllCaps="false"
+                android:textColor="@android:color/black" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="start"
+            android:orientation="horizontal"
+            android:textSize="20sp">
+
+            <TextView
+                style="@style/maly_napis"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_marginEnd="10dp"
+                android:lineSpacingExtra="2dp"
+                android:text="Błonnik: "
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:id="@+id/Blonnik"
+                style="@style/maly_napis"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="20"
+                android:text="Bł"
+
+                android:textAllCaps="false"
+                android:textColor="@android:color/black" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:gravity="start"
+        android:orientation="horizontal"
+        android:textAlignment="center">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="50"
+            android:gravity="start"
+            android:orientation="horizontal"
+            android:textAlignment="center">
+
+            <TextView
+                style="@style/maly_napis"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2dp"
+                android:text="WW:" />
+
+            <TextView
+                android:id="@+id/WW"
+                style="@style/maly_napis"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="20"
+                android:lineSpacingExtra="2dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="50"
+            android:gravity="start"
+            android:orientation="horizontal"
+            android:textAlignment="center"
+            android:textSize="20sp">
+
+            <TextView
+                style="@style/maly_napis"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2dp"
+                android:text="WBT:" />
+
+            <TextView
+                android:id="@+id/WBT"
+                style="@style/maly_napis"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="20"
+                android:lineSpacingExtra="2dp"
+                 />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">SugarAP</string>
+    <string name="action_settings">Informacje</string>
+    <string name="action_zapis">Zapisz do pliku</string>
+    <string name="title_activity__HistoriaPomiatow">Historia Pomiarów</string>
+    <string name="title_activity__kalkulator">Kalkulator</string>
+    <string name="title_activity__produkty">Produkty</string>
+    <string name="title_activity__pomiar">Pomiar</string>
+
+
+    <string name="przycisk_pomiar">Pomiar</string>
+    <string name="przycisk_kalkulator">Kalkulator</string>
+    <string name="przycisk_produkty">Produkty</string>
+    <string name="przycisk_HistoriaPomiarów">Historia Pomiarów</string>
+    <string name="tv_podaj_nazw">Podaj nazwę</string>
+    <string name="przylad_wartosci_liczbowe">Np. 0.0</string>
+    <string name="brak_pomiar_w">Brak pomiarów</string>
+</resources>

@@ -1,0 +1,5 @@
+<root>
+    <item name='android.provider.BaseColumns'>
+        <annotation name='java.lang.Deprecated' />
+    </item>
+</root>

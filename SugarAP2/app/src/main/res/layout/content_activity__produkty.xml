@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/tlo2"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="pl.winiarek.dominik.Activity_Produkty"
+    tools:showIn="@layout/activity__produkty">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:focusableInTouchMode="true"
+                android:orientation="vertical"
+                android:layout_margin="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="50"
+                        style="@style/maly_napis"
+                        android:text="@string/tv_podaj_nazw" />
+
+                    <EditText
+                        android:id="@+id/ed_Nazwa"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="50"
+                        android:hint="Nazwa"
+                        android:textSize="18sp"
+                        android:maxLength="30"
+                        android:textColor="#000000"
+                        android:imeOptions="actionDone"
+                        android:inputType="textFilter|textCapSentences" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="50"
+                        style="@style/maly_napis"
+                        android:text="Liczba Kalorii" />
+
+                    <EditText
+                        android:id="@+id/ed_Kalorie"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="50"
+                        android:hint="@string/przylad_wartosci_liczbowe"
+                        android:imeOptions="actionDone"
+                        android:inputType="numberDecimal"
+                        android:maxLength="4" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="50"
+                        style="@style/maly_napis"
+                        android:text="Waga Białka" />
+
+                    <EditText
+                        android:id="@+id/ed_Bialko"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="50"
+                        android:hint="@string/przylad_wartosci_liczbowe"
+                        android:imeOptions="actionDone"
+                        android:inputType="numberDecimal"
+                        android:maxLength="6" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        style="@style/maly_napis"
+                        android:layout_weight="50"
+                        android:text="Waga Tłuszczu" />
+
+                    <EditText
+                        android:id="@+id/ed_Tluszcz"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="50"
+                        android:hint="@string/przylad_wartosci_liczbowe"
+                        android:imeOptions="actionDone"
+                        android:inputType="numberDecimal"
+                        android:maxLength="6" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/weglo"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:onClick="przewijaj"
+                        android:layout_weight="50"
+                        style="@style/maly_napis"
+                        android:ellipsize="marquee"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true"
+                        android:freezesText="true"
+                        android:scrollHorizontally="true"
+                        android:singleLine="true"
+                        android:text="Waga Węglowodanów" />
+
+                    <EditText
+                        android:id="@+id/ed_Weglowodany"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="50"
+                        android:hint="@string/przylad_wartosci_liczbowe"
+                        android:imeOptions="actionDone"
+                        android:inputType="numberDecimal"
+                        android:maxLength="6" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="50"
+                        style="@style/maly_napis"
+                        android:text="Waga Błonnika" />
+
+                    <EditText
+                        android:id="@+id/ed_Blonnik"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="50"
+                        android:hint="@string/przylad_wartosci_liczbowe"
+                        android:imeOptions="actionDone"
+                        android:inputType="numberDecimal"
+                        android:maxLength="6" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center">
+
+                    <Button
+                        android:id="@+id/BdodajProdukt"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:onClick="onClick_Add"
+                        android:text="Dodaj produkt"
+                        android:textAlignment="center"
+                        style="@style/maly_napis"
+                        android:textAllCaps="false"
+                        android:background="@drawable/przycisk_wyboru"
+                        android:tint="@android:color/holo_blue_light" />
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:orientation="vertical">
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:background="@android:color/black" />
+
+<!--
+                <ListView
+                    android:id="@+id/listview_produkty"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:dividerHeight="3dp" />-->
+
+                <pl.winiarek.dominik.NonScrollListView
+                    android:id="@+id/listview_produkty"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:dividerHeight="4dp">
+
+                </pl.winiarek.dominik.NonScrollListView>
+            </LinearLayout>
+
+        </LinearLayout>
+
+</ScrollView>

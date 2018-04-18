@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="przycisk1a">#07a9d2</color>
+    <color name="przycisk1b">#1d71f7</color>
+    <color name="przycisk2a">#1ae1ff</color>
+    <color name="przycisk2b">#20a5ec</color>
+    <color name="przycisk_wa">#79baf1</color>
+    <color name="przycisk_wb">#51a9f2</color>
+    <color name="spiner_a">#79baf1</color>
+    <color name="spiner_b">#51a9f2</color>
+    <color name="tlo">#0073ff</color>
+    <color name="tlo2">#92c6f1</color>
+    <color name="tlo_notatka">#7cb8ea</color>
+    <color name="spiner">#3951de</color>
+
+
+</resources>

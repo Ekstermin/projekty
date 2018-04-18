@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/tlo2"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="pl.winiarek.dominik.Activity_Pomiar"
+    tools:showIn="@layout/activity__pomiar">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:focusableInTouchMode="true"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+
+            <EditText
+                android:id="@+id/ET_Nazwa"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:maxLength="20"
+                android:textSize="20sp"
+                android:inputType="textFilter|textCapSentences"
+                android:imeOptions="actionDone"
+                android:hint="Nazwa" />
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:orientation="horizontal">
+
+
+            <TextView
+                style="@style/maly_napis"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Data pomiaru: " />
+
+            <TextView
+                android:id="@+id/data"
+                style="@style/maly_napis"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="UstawDate" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:orientation="horizontal">
+
+
+            <TextView
+
+                style="@style/maly_napis"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="Czas pomiaru: " />
+
+            <TextView
+                android:id="@+id/czas"
+
+                style="@style/maly_napis"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:onClick="UstawGodzine" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:orientation="horizontal">
+
+
+            <TextView
+
+                style="@style/maly_napis"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="Wynik pomiaru" />
+
+            <EditText
+                android:id="@+id/ET_glukoza"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:hint="Np. 4.0"
+                android:imeOptions="actionDone"
+                android:inputType="numberDecimal"
+                android:padding="10dp"
+                android:maxLength="6"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/tv_jednostkaGlukozy"
+                style="@style/maly_napis"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="zmienjednostke"
+                android:text="mg/dl " />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+
+            <MultiAutoCompleteTextView
+                android:id="@+id/note"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp"
+                android:textAlignment="center"
+                android:background="@drawable/notatka_wyglad"
+                android:hint="Twoja notatka "
+                />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:orientation="horizontal">
+
+
+            <Button
+                android:id="@+id/B_DodajPomiar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/maly_napis"
+                android:background="@drawable/przycisk_wyboru"
+                android:textAllCaps="false"
+                android:onClick="OnClickDodajPomiar"
+                android:text="Dodaj pomiar" />
+
+
+        </LinearLayout>
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

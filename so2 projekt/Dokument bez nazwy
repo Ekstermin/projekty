@@ -1,0 +1,46 @@
+void drwal2(int id)
+    {
+	
+	//dzialka.wynik();
+	WINDOW* win88;
+	win88=newwin(2, 20, id+2,0);
+	
+    chrono::milliseconds czas(3000);
+	chrono::milliseconds czas2(5);
+	while(1)
+	{
+    while(dzialka.tnie())
+        {
+
+			
+			dzialka.piszD();
+			dzialka.piszM();
+		//	this_thread::sleep_for( czas );			
+			//dzialka.zetnij();
+        for(int n=0; n<=600;n++)
+			{
+				wclear(win88);
+				mvwprintw(win88,0,0,"Drwal: %d",id);
+				mvwprintw(win88,1,0,"TNE... %d",n);
+				wrefresh(win88);
+
+				this_thread::sleep_for( czas2 );
+
+			}
+			dzialka.potnij();
+			wclear(win88);
+			mvwprintw(win88,0,0,"Drwal: %d",id);
+			mvwprintw(win88,1,0,"Odpoczywam");
+			wrefresh(win88);
+			
+			dzialka.piszD();
+			dzialka.piszM();
+			this_thread::sleep_for( czas );
+
+        }
+
+		this_thread::yield();
+	}
+	delwin(win88);
+
+    }
